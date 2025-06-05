@@ -21,12 +21,12 @@ for(let framework of frameworks){
   let frameworkName = oracion[0].trim();
   let releaseDate = oracion[1].trim();
   let usersName = oracion[2].trim();
-  let popularityPorcentage = oracion[3].trim();
+  let popularityPercentage = oracion[3].trim();
   let frameworkObj = new Object();
   frameworkObj.frameworkName = frameworkName ;
   frameworkObj.releaseDate = releaseDate ;
   frameworkObj.usersName = usersName ; 
-  frameworkObj.popularityPorcentage = popularityPorcentage ;
+  frameworkObj.popularityPercentage = popularityPercentage ;
 
   addRow(frameworkObj, "data-frameworks");
 
